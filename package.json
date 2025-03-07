@@ -1,0 +1,18 @@
+{
+  "name": "04-multiplication",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/app.ts -b 7 -s -n table-seven"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/yargs": "^17.0.33"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
